@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Numérique Thibaud Marin</title>
+    <title>Thibaud Marin Développeur Web Junior</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -14,6 +14,8 @@
 <body class="font-monospace">
     <div class="container-fluid">
         <header id="header-site">
+
+            <!-- Ne pas hesiter a jouer avec le vh-100 (sur le parent) et les h-50/100 -->
 
 
             <!-- La fameuse Nav bar -->
@@ -79,20 +81,20 @@
                     </div>
 
                     <div class="col-md-3"> 
-                        <a href="formulaire.html">thibaud.marin1@gmail.com</a>
+                        <a id="linkForms" href="formulaire.html">thibaud.marin1@gmail.com</a>
                     </div>
 
                     <div class="col-md-3">80450 Camon
                     </div>
 
-                    <div class="col-md-3">thibaud.marin.fr/portfolio
+                    <div class="col-md-3"> 
+                        <a id="linkForms" href="#portfolio">Mon Portfolio & réalisations</a>
                     </div>
                 </div>
             </div>
 
 
         </header>
-
 
         <main class="main-content">
 
@@ -182,8 +184,8 @@
                     <h2 class="col text-center" id="competences">COMPÉTENCES</h2> 
 
                     <div class="row">
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-md-4">
+                    <div class="card my-5">
                         <div class="card-body">
                             <h5 class="card-title text-center text-info">Front-end</h5>
                             <h6 class="card-subtitle text-muted">Création et intégration de sites web et
@@ -213,21 +215,21 @@
 
                 <div class="col-7 d-flex justify-content-center align-items-center">
             
-                        <span id="icon" class="bi bi-front"> </span>
+                        <span id="icon" class="bi bi-front d-none d-lg-block"> </span>
                     
                 </div>
                 
                 </div>
 
                 <div class="row">
-                    <div class="col-4 d-flex justify-content-center align-items-center ">
+                    <div class="col-4 d-flex justify-content-center align-items-center">
                                 
-                            <span id="icon" class="bi bi-back "> </span>                                                    
+                            <span id="icon" class="bi bi-back d-none d-lg-block "> </span>                                                    
                     
                     </div>
 
-                    <div class=" col-4">
-                        <div class="card" >
+                    <div class=" col-md-4">
+                        <div class="card my-5" >
                             <div class="card-body">
                                 <h5 class="card-title text-center text-info">Back-end</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Développement de sites web et applications,
@@ -264,11 +266,11 @@
 
                     <div class="col-4 d-flex justify-content-center align-items-center">
                                 
-                            <span id="icon" class="bi bi-phone "> </span>
+                            <span id="icon" class="bi bi-phone d-none d-lg-block "> </span>
                         
                     </div>
-                    <div class="col-4">
-                        <div class="card">
+                    <div class="col-md-4">
+                        <div class="card my-5">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-info">Web-Design</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Création de maquettes XD et HTML, ainsi que de
@@ -306,12 +308,12 @@
 
 
                     <div class="col-2 d-flex justify-content-center align-items-center">
-                        <span id="icon" class="bi bi-globe"></span>
+                        <span id="icon" class="bi bi-globe d-none d-lg-block"></span>
                     </div>
 
-                    <div class="col -8">
+                    <div class="col-md-8">
 
-                        <div class="card">
+                        <div class="card my-5">
                             <div class="card-body">
                                 <h5 class="card-title text-center text-info"> Environnement de travail</h5>
                                 <div class="my-3">
@@ -351,7 +353,7 @@
                     </div>
 
                     <div class="col-2 d-flex justify-content-center align-items-center">
-                        <span id="icon" class="bi bi-globe"></span>
+                        <span id="icon" class="bi bi-globe d-none d-lg-block"></span>
 
                     </div>
                 </div>
@@ -368,42 +370,44 @@
 
             <!-- début du bloc de mon parcours -->
 
-            <div class="text-center my-5" id="parcours">
+            <div class="text-center row" id="parcours">
                 <div class="text-center my-5">
                     <h2 id="competences">EXPÉRIENCES & PARCOURS</h2>
                 </div>
 
-                <div class="row justify-content-center m-3">
-                    <div class="card" style="width: 28rem;">
-                        <div class="card-body">
-                            <h5
-                                class="card-title text-center box-shadow text-info bi bi-mortarboard shadow p-3 mb-5 bg-body rounded">
-                                Formation DWWM
-                            </h5>
-                            <h6 class="card-subtitle mb-2 text-muted">MARS 2022 - OCTOBRE 2022</h6>
-                            <P>La Manu, Amiens</P>
-                            <ul>
-                                <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-                                    doloribus </li>
-                                <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-                                    doloribus</li>
-                                <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-                                    doloribus</li>
-                                <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-                                    doloribus</li>
-                                <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-                                    doloribus</li>
-                                <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
-                                    doloribus</li>
-                            </ul>
-                        </div>
+                <div class="row m-3">
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5
+                                    class="card-title text-center box-shadow text-info bi bi-mortarboard shadow p-3 mb-5">
+                                    Formation Développeur web web mobile
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-muted">MARS 2022 - OCTOBRE 2022</h6>
+                                <P>La Manu, Amiens</P>
+                                <ul>
+                                    <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
+                                        doloribus </li>
+                                    <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
+                                        doloribus</li>
+                                    <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
+                                        doloribus</li>
+                                    <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
+                                        doloribus</li>
+                                    <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
+                                        doloribus</li>
+                                    <li class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia
+                                        doloribus</li>
+                                </ul>
+                            </div>
+                    </div>
                     </div>
                 </div>
 
-                <div class="row ">
+                <div class="row m-3 ">
 
-                    <div class="row justify-content-center m-3 ">
-                        <div class="card" style="width: 28rem;">
+                    <div class="col d-flex justify-content-center  ">
+                        <div class="card">
                             <div class="card-body">
                                 <h5
                                     class="card-title text-center box-shadow text-info bi bi-mortarboard shadow p-3 mb-5 bg-body rounded">
@@ -438,8 +442,8 @@
 
                 <div class="row">
 
-                    <div class="row justify-content-center m-3 ">
-                        <div class="card" style="width: 28rem;">
+                    <div class="col d-flex justify-content-center m-3 ">
+                        <div class="card">
                             <div class="card-body">
                                 <h5
                                     class="card-title text-center box-shadow text-info bi bi-gear shadow p-3 mb-5 bg-body rounded">

@@ -1,3 +1,10 @@
 #icon{
     font-size: 5rem;
 }
+#linkForms{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-size: large;
+}
