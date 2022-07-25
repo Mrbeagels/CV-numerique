@@ -1,0 +1,99 @@
+/* .carousel-inner{
+    max-height: 30VH;
+	object-fit: cover;
+	object-position: center center;
+} */
+#linkForms{
+    text-decoration: none;
+    color: #F2C801 !important;
+}
+.linkForms{
+	text-decoration: none;
+    color: #F2C801 !important;
+}
+
+body{
+	background-color: #00517F !important;
+	color: #F2C801 !important;
+	font-size: 18px !important;
+}
+.navLiSm{
+color: #F2C801 !important;
+}
+.navLiLg{
+    text-decoration: none;
+    color: #F2C801 !important;
+}
+.navLiLg:hover{
+background-color: grey;
+}
+
+
+.thibaud{
+	height: 650px;
+background-image: url(../img/ThibaudMarin.jpg) ;
+background-position: center;
+background-repeat:no-repeat ;
+background-size: cover;
+transition: 300ms;
+}
+.btn-warning{
+	transition: transform .3s;
+}
+
+.btn-warning:hover{
+	color:#F2C801 !important;
+	background-color: #00517F !important;
+	transform: scale(1.5);
+	border-color: #00517F !important;	
+}
+
+.thibaud:hover{
+	background:url("../img/thibaud2.jpg");
+	background-position: center;
+	background-repeat:no-repeat ;
+	background-size: cover;
+	transition: 300ms;
+	
+}
+.skillTextColor{
+	color: #F2C801 !important;
+}
+#icon{
+font-size: 5rem !important;
+}
+
+
+.catTitle{
+	list-style-type: none;
+}
+
+
+
+.journeyBgColor{
+	background-color: rgb(0,59,91, 0.5) !important;
+	border: none !important;
+}
+
+@media screen and (max-width:576px) {
+
+    .navBarLg{
+        display: none !important;
+    }
+}
+/* Media queries pour la nav bar */
+@media screen and (min-width:576px) {
+    .navBarSm{
+        display: none !important;
+    }
+    .thibaud{
+        margin-left: 5rem;
+        margin-top: 50rem;
+    }
+    .gear{
+        font-size: 3.6rem;
+    }
+    .title{
+        font-size: 80px;
+    }
+}
