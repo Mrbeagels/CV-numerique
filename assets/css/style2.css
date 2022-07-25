@@ -30,8 +30,9 @@ background-color: grey;
 
 
 .thibaud{
-	height: 650px;
-background-image: url(../img/ThibaudMarin.jpg) ;
+border-radius: 20px;
+height: 650px;
+background-image: url("../img/thibaud2.jpg") ;
 background-position: center;
 background-repeat:no-repeat ;
 background-size: cover;
@@ -49,7 +50,7 @@ transition: 300ms;
 }
 
 .thibaud:hover{
-	background:url("../img/thibaud2.jpg");
+	background:url(../img/ThibaudMarin.jpg);
 	background-position: center;
 	background-repeat:no-repeat ;
 	background-size: cover;
