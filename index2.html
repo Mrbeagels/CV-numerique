@@ -12,7 +12,11 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- title -->
     <title>CV Numérique Thibaud Marin</title>
+    <!-- favicon -->
+    <link rel="icon" type="image" href="assets/img/Thibaud2.jpg">
+    <!-- meta description -->
     <meta name="description"
         content="Bienvenu sur le CV numérique de Thibaud Marin, je suis a la recherche d'un emploi dans le developpement web, community manager, ou sur tout ce qui touche au référencement Web.">
 </head>
@@ -20,6 +24,11 @@
 
 <body>
     <header>
+        <section class="scroll">
+            <div class="scroll-line"></div>
+        </section>
+        
+        <!-- nav bar en mode < 576 px -->
         <nav class="  navbar navbar-expand-lg navBarSm">
             <div class="justify-content-between container-fluid">
                 <h1 id="title" class="text-center mt-5">🌟 Thibaud Marin 🌟</h1>
@@ -42,70 +51,40 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </nav>
-        
+
 
         <!-- Nav bar en mode > 576 px  -->
         <div class="container-fluid">
-            <nav class="navbar navBarLg">
-                
-                <div class="d-flex justify-content-around w-100 mt-3">
-                    <h3><a class="navLiLg " href="#aboutMe">À PROPOS DE MOI</a></h3>
-                    <h3><a class="navLiLg " href="#competences">COMPÉTENCES</a></h3>
-                    <h3><a class="navLiLg " href="#portfolio">PORTEFOLIO</a></h3>
-                    <h3><a class="navLiLg " href="#experiences">MON PARCOURS</a></h3>
-                    <h3><a class="navLiLg " href="formulaire.html" target="_blank">CONTACTEZ-MOI</a></h3>
-                </div>
-                <h1 id="title" class=" my-5 w-100 text-center">🌟 Thibaud Marin 🌟</h1>
-            </nav>
-        </div>
-
-
-    </header>
-
-    <main>
-        <!-- Debut du carousel -->
-        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/desk.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/lamanos.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/tiboenforme2.jpg" class="d-block w-100" alt="...">
+            <div class="navbar navbar-expand-lg fixed top justify-content-between navBarLg">
+                <a class="linkForms" href="index2.html">
+                    <h1>Thibaud Marin</h1>
+                </a>
+                <div class="navbar-collapse justify-content-end mr-5 collapse">
+                    <p><a class="navLiLg me-4" href="#aboutMe">À PROPOS DE MOI</a></p>
+                    <p><a class="navLiLg me-4" href="#competences">COMPÉTENCES</a></p>
+                    <p><a class="navLiLg me-4" href="#portfolio">PORTEFOLIO</a></p>
+                    <p><a class="navLiLg me-4" href="#experiences">MON PARCOURS</a></p>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button> -->
-        <!-- Merci de retravailler la taille des images ainsi que les images. -->
 
-        </div>
+            </nav>
+            <div class="wallpaper"></div>
+
+    </header>
+    <main>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 col-lg-3 d-flex flex-column mt-5">
                     <a id="linkForms" class="text-center" href="formulaire.html">thibaud.marin1@gmail.com</a>
                     <span class="bi bi-front text-center" style="font-size: 3rem;"> </span>
                     <p class="text-center">Web development</p>
-
                 </div>
-
                 <div class="col-6 col-lg-3 d-flex flex-column mt-5 text-center">Amiens - Compiégne.
                     <span class="bi bi-chat-left-heart text-center" style="font-size: 3rem;"> </span>
                     <p class="text-center">Social media</p>
                 </div>
-
                 <div class="col-6 col-lg-3 d-flex flex-column mt-5 text-center">
                     <a id="linkForms" href="#portfolio">Mes réalisations</a>
                     <span class="bi bi-google" style="font-size: 3rem;"> </span>
@@ -126,7 +105,6 @@
 
 
 
-
         <div class="container-fluid mt-5 pt-5">
             <div class="row">
                 <span class="picture col-12 col-lg-3 text-center thibaud"> </span>
@@ -138,22 +116,21 @@
                     </p>
                     <p><strong>Compétences principales : </strong> Développement Web front & back, référencement SEO,
                         community manager</p>
-                    <div class="d-flex justify-content-center my-5 btnHover">
+                    <div class="d-flex justify-content-center my-5 btnHover swingimage">
                         <a href="tel:+33666109521" class="btn btn-warning ">Disponible maintenant
-                            <span class="bi bi-phone"></span></a>
+                            <span class="bi bi-phone "></span></a>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="container-fluid p-5 mt-5 ">
             <p>Développeur web junior, je recherche un emploi après avoir passé 6 mois en formation au sein de
                 la Manu. Cette expérience m’a permis d’acquérir autonomie et confiance en moi, suite à une
                 reconversion professionnelle. </p>
-
             <p> Je profite aujourd’hui du temps dont je dispose pour continuer d’apprendre de nouvelles
                 technologies et notamment enrichir mes connaissances en développement web et web mobile, en
                 marketing digital, community management et référencement web.</p>
-
 
             <p> Après avoir obtenu un DEUG en economie au sein de l'université de Picardie Jules Verne et passé
                 deux ans de le commerce, je me suis réorienté en cuisine, j'ai gravi les échelons des différents
@@ -170,21 +147,15 @@
                 pour satisfaire au mieux la demande du client.</p>
         </div>
 
-
-
         <div class="container-fluid">
-
             <h2 class="col text-center" id="competences">COMPÉTENCES</h2>
-            <div></div>
-
             <div class="row">
                 <div class="col-md-4">
                     <div class="card my-5">
                         <div class="card-body">
                             <h5 class="card-title text-center skillTextColor">Front-end</h5>
-                            <h6 class="card-subtitle skillTextColor">Création et intégration de sites web et
+                            <h6 class="card-subtitle skillTextColor mb-2">Création et intégration de sites web et
                                 applications mobiles responsive, accessibles et répondant aux normes W3C</h6>
-
                             <div class="progress text-dark mb-3">
                                 <div class="progress-bar-striped bg-info " role="progressbar" style="width: 60%;"
                                     aria-valuenow="60%" aria-vamuemin="0" aria-valuemax="100"> HTML5</div>
@@ -197,29 +168,22 @@
                                 <div class="progress-bar-striped bg-info " role="progressbar" style="width: 30%;"
                                     aria-valuenow="30%" aria-vamuemin="0" aria-valuemax="100"> JavaScript</div>
                             </div>
-
                             <div class="progress text-dark mb-3">
                                 <div class="progress-bar-striped bg-info " role="progressbar" style="width: 60%;"
                                     aria-valuenow="60%" aria-vamuemin="0" aria-valuemax="100"> Bootstrap</div>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col-7 d-flex justify-content-center align-items-center">
-
                     <span id="icon" class="bi bi-front d-none d-lg-block"> </span>
-
                 </div>
-
             </div>
 
             <div class="row">
                 <div class="col-4 d-flex justify-content-center align-items-center">
-
                     <span id="icon" class="bi bi-back d-none d-lg-block "> </span>
-
                 </div>
 
                 <div class=" col-md-4">
@@ -276,88 +240,66 @@
                                 <div class="progress-bar-striped bg-info" role="progressbar" style="width: 50%;"
                                     aria-valuenow="50%" aria-vamuemin="0" aria-valuemax="100"> Adobe XD</div>
                             </div>
-
-
                             <div class="progress text-dark mb-3">
                                 <div class="progress-bar-striped bg-info" role="progressbar" style="width: 15%;"
                                     aria-valuenow="15%" aria-vamuemin="0" aria-valuemax="100"> GIMP</div>
                             </div>
-
-
                             <div class="progress text-dark mb-3">
                                 <div class="progress-bar-striped bg-info" role="progressbar" style="width: 40%;"
                                     aria-valuenow="40%" aria-vamuemin="0" aria-valuemax="100"> Maquettage</div>
                             </div>
-
                             <div class="progress text-dark mb-3">
                                 <div class="progress-bar-striped bg-info" role="progressbar" style="width: 30%;"
                                     aria-valuenow="30%" aria-vamuemin="0" aria-valuemax="100"> Prototypage</div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="row">
-
-
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-globe d-none d-lg-block"></span>
                 </div>
 
                 <div class="col-md-8">
-
-                    <div class="card my-5">
+                    <div class="card my-5 workspace">
                         <div class="card-body ">
                             <h5 class="card-title text-center skillTextColor"> Environnement de travail</h5>
                             <div class="my-3">
                                 <span class="bi bi-laptop text-dark" style="font-size: 2rem;"> </span>
                                 <span class="fw-bold fs-6"> Systèmes d'exploitation </span>: Windows 10,11
-
                             </div>
-
                             <div class="my-3">
                                 <span class=" text-dark bi bi-stack-overflow icons" style="font-size: 2rem;">
                                 </span>
                                 <span class="fw-bold fs-6"> Workflow </span>: Git, Chrome, discord
-
                             </div>
-
                             <div class="my-3">
                                 <span class=" text-dark bi bi-code" style="font-size: 2rem;"> </span>
                                 <span class="fw-bold fs-6"> IDE </span>: Visual Studio Code, Sublime Text
-
                             </div>
-
                             <div class="my-3">
                                 <span class=" text-dark bi bi-vector-pen" style="font-size: 2rem;"> </span>
                                 <span class="fw-bold fs-6"> Autres compétences </span>: Maîtrise de l'anglais,
                                 traduction anglais/français, rédaction, présentation a l'oral, pédagogue
-
                             </div>
-
                             <div class="my-3">
                                 <span class=" text-dark bi bi-person-circle" style="font-size: 2rem;"> </span>
                                 <span class="fw-bold fs-6"> Savoir-être </span>: Capacité d'adaptation, travail en
                                 équipe, oganisation, rigueur, force de proposition, charismatique.
-
                             </div>
                         </div>
                     </div>
-
                 </div>
-
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-globe d-none d-lg-block"></span>
-
                 </div>
             </div>
         </div>
         <!-- portefolio en travaux -->
         <div id="portfolio">
-            
+
 
         </div>
 
@@ -369,18 +311,13 @@
         <!-- mon parcours -->
         <div class="container-fluid">
             <div class="row">
-
-
                 <div class="col-2 d-flex justify-content-center align-items-center ">
                     <span id="icon" class="bi bi-pc-display d-none d-lg-block"></span>
                 </div>
-
                 <div class="col-md-8">
                     <h5 id="experiences" class="card-title text-center skillTextColor fs-1"> Mon parcours</h5>
-
                     <div class="card my-5 journeyBgColor">
                         <div class="card-body">
-
                             <div class="my-3">
                                 <h3 class="bi bi-pc-display text-center ms-3 " style="font-size: 2rem;"> Formation
                                     DWWM </h3>
@@ -408,28 +345,19 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-pc-display d-none d-lg-block"></span>
-
                 </div>
             </div>
 
             <div class="row">
-
-
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-egg-fried d-none d-lg-block"></span>
                 </div>
-
                 <div class="col-md-8">
-
-
-                    <div class="card my-5 journeyBgColor">
+                    <div class="card my-5 journeyBgColor cook">
                         <div class="card-body">
-
                             <div class="my-3">
                                 <h3 class="bi bi-egg-fried text-center catTitle " style="font-size: 2rem;"> Equipier
                                     puis Manager de cuisine </h3>
@@ -449,28 +377,19 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-egg-fried d-none d-lg-block"></span>
-
                 </div>
             </div>
 
             <div class="row">
-
-
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-shop d-none d-lg-block"></span>
                 </div>
-
                 <div class="col-md-8">
-
-
-                    <div class="card my-5 journeyBgColor">
+                    <div class="card my-5 journeyBgColor saleman">
                         <div class="card-body">
-
                             <div class="my-3">
                                 <h3 class="bi bi-shop text-center catTitle " style="font-size: 2rem;"> Agent
                                     responsable de la fidélisation client </h3>
@@ -489,13 +408,88 @@
                 </div>
                 <div class="col-2 d-flex justify-content-center align-items-center">
                     <span id="icon" class="bi bi-shop d-none d-lg-block"></span>
-
                 </div>
             </div>
+            <!-- tentative d'ajouter mes expérience dans une modal -->
+            <div class="d-flex justify-content-center ">
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content modalTextColor">
+                            <div class="modal-header modalBgHead">
+                                <h5 class="modal-title" id="exampleModalToggleLabel">Restauration</h5>
+                                <button type="button" class="btn-close " data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modalBgBody">
+                                <div class="card-body">
+                                    <div class="my-3">
+                                        <h3 class="bi bi-egg-fried text-center catTitle " style="font-size: 2rem;">
+                                            Equipier
+                                            puis Manager de cuisine </h3>
+                                        <div class="text-center">Avril 2017 à Mai 2021</div>
+                                        <div class="text-center">Le comptoir du malt, Longueau (80)</div>
+                                    </div>
+                                    <ul>
+                                        <li class="fw-bold text-center my-5 catTitle">Responsable de la brigade de
+                                            cuisine
+                                        </li>
+                                        <li>Gestion des cuisiniers, plats du jours, stocks et commandes</li>
+                                        <li>Résolution de conflits interne</li>
+                                        <li>Capacité à réaliser un travail dans le cadre d'une équipe</li>
+                                        <li class="fw-bold text-center my-5 catTitle">Capacité d'adaptation</li>
+                                        <li>Savoir travailler sous pression, connaissance du rush</li>
+                                        <li>Adaptabilité a l'intensité du service / des besoins en production</li>
+                                        <li>Respect de la hiérarchie, rigueur, autonomie, poncualité</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="modal-footer modalBgHead">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal">En voir plus</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered ">
+                        <div class="modal-content modalTextColor">
+                            <div class="modal-header modalBgHead">
+                                <h5 class="modal-title" id="exampleModalToggleLabel2">Commercial</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modalBgBody">
+                                <div class="card-body ">
+                                    <div class="my-3 ">
+                                        <h3 class="bi bi-shop text-center catTitle " style="font-size: 2rem;"> Agent
+                                            responsable de la fidélisation client </h3>
+                                        <div class="text-center">Avril 2015 à Fevrier 2017</div>
+                                        <div class="text-center">Coriolis pour Coyote, Amiens (80)</div>
+                                    </div>
+                                    <ul>
+                                        <li class="fw-bold text-center my-5 catTitle">Fidélisation et rétention client
+                                        </li>
+                                        <li>Developpement d'un argumentaire de vente</li>
+                                        <li>Résolution de conflits</li>
+                                        <li>Négociation en B2B</li>
+                                        <li>Vente en directe au particulier</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="modal-footer modalBgHead">
+                                <button type="button" role="button" class="btn" data-bs-dismiss="modal"
+                                    aria-label="Close">Retour</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-primary expModal mb-5" data-bs-toggle="modal" href="#exampleModalToggle"
+                    role="button">En voir plus</a>
+            </div>
         </div>
-
     </main>
-
 
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
@@ -534,11 +528,11 @@
             <!-- Section: Text -->
             <section class="mb-4">
                 <p>
-                    Merci a vous d'etre arrivez jusqu'ici. je reste a votre entiere disponibilité pour un entretien
-                    ou un rendez-vous en distanciel.
+                    Merci à vous d'être arrivé jusqu'ici. je reste à votre entière disponibilité pour un entretien ou un
+                    rendez-vous en distanciel
                 </p>
-                <p>N'hésitez pas a consulter également mes autres CV : <a id="linkForms" href="#CV_video">CV
-                        vidéo</a> & <a id="linkForms" href="CV_papier"> CV papier</a> </p>
+                <p>N'hésitez pas à consulter également mes autres CV : <a id="linkForms" href="#CV_video">CV vidéo</a> &
+                    <a id="linkForms" href="CV_papier"> CV papier</a> </p>
             </section>
             <!-- Section: Text -->
             <!--Grid column-->
@@ -554,10 +548,12 @@
             © 2022 Copyright: Thibaud Marin.
         </div>
     </footer>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
