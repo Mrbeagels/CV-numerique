@@ -1,14 +1,135 @@
-#icon{
-    font-size: 5rem;
+body{
+	background-color: #00517F !important;
+	color: #F2C801 !important;
+	font-size: 22px !important;
 }
 #linkForms{
     text-decoration: none;
-    color: black;
+    color: #F2C801 !important;
 }
-body{
-    font-size: large;
+.linkForms{
+	text-decoration: none;
+    color: #F2C801 !important;
 }
-#phone{
+.navLiSm{
+color: #F2C801 !important;
+}
+.navLiLg{
     text-decoration: none;
+    color: #F2C801 !important;
+}
+.navLiLg:hover{
+font-style: italic;
+text-decoration: underline;
+}
+.wallpaper{
+    background-image: url(../img/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.thibaud{
+border-radius: 20px;
+height: 650px;
+background-image: url("../img/thibaud2.jpg") ;
+background-position: center;
+background-repeat:no-repeat ;
+background-size: cover;
+transition: 200ms;
+}
+.card{
+    padding: 0px !important;
+    text-align: center;
+}
+.skillTextColor{
+	color: #F2C801 !important;
+}
+/* tentative bar de scroll */
+
+/* tentative bar de scroll */
+
+#icon{
+font-size: 5rem !important;
+}
+@-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+
+.swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.catTitle{
+	list-style-type: none;
+}
+.journeyBgColor{
+	background-color: rgb(0,59,91, 0.5) !important;
+	border: none !important;
+}
+.modalTextColor{
     color: black;
+}
+.modalBgBody{
+    background-color: rgb(0, 81, 127,0.7)
+}
+.modalBgHead{
+    background-color: rgb(242, 200, 1,0.5);
+}
+
+@media screen and (max-width:576px) {
+
+    .navBarLg{
+        display: none !important;
+    }
+    #title{
+        font-size: 30px !important;
+    }
+    .wallpaper{
+        display: none;
+    }
+    .saleman{
+        display: none !important;
+    }
+    .cook{
+        display: none !important;
+    }
+    .workspace{
+        display: none ! important;
+    }
+
+}
+/* Media queries pour la nav bar */
+@media screen and (min-width:576px) {
+    .navBarSm{
+        display: none !important;
+    }
+    .thibaud{
+        margin-left: 5rem;
+        margin-top: 50rem;
+    }
+    .gear{
+        font-size: 3.6rem;
+    }
+    .btn-warning:hover{
+        color:#F2C801 !important;
+        background-color: #00517F !important;
+        transform: scale(2);
+        border-color: #F2C801;	
+    }
+    .expModal{
+        display: none !important;
+    }
 }
